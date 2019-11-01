@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget id="tw.edu.nfu.eZTravel" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<!-- versionCode is optional and Android only -->
+  <name>APPLE COMPANY</name>
+  <description>
+      An example for phonegap build APP from Mr.HOANG.
+  </description>
+  <author href="https://www.youtube.com/watch?v=IHNzOHi8sJs" email="johncenahoang@gmail.com">
+      DANG QUANG VU HOANG
+  </author>
+  <content src="index.html" />
+  <platform name="android">
+    <icon src="res/android/apple.png" />
+    <icon src="rres/android/apple.png" density="ldpi" />
+    <icon src="res/android/apple.png" density="mdpi" />
+    <icon src="res/android/apple.png" density="hdpi" />
+    <icon src="res/android/apple.png" density="xhdpi" />
+  </platform>
+</widget>

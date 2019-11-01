@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ipad</title>
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+    
+    <div is="page" id="home" data-role="page" style="background:-webkit-linear-gradient(rgb(8, 8, 8),rgb(8, 8, 0))">
+        <div is="header" data-role="header" data-position="fixed" data-theme="b">
+            <h3>Ipad</h3>
+            <a class="ui-btn ui-btn-left  ui-btn-icon-left ui-icon-back ui-btn-icon-notext ui-corner-all" data-transition="slide" href="index.html" rel="external">Back</a>
+        </div>
+        <div is="content" role="main" class="ui-content">
+            <ul is="listview" data-role="listview" data-inset="true" style="margin-top:0;">
+                <li is="list-divider" data-role="list-divider" style="text-align:center;font-size:20px; background:-webkit-linear-gradient(rgb(0, 0, 0),rgb(0, 0, 0)); color:#fff;">Products List</li>
+            </ul>
+            <ul is="listview" data-role="listview" data-inset="true" id="hero_list" style="margin:0;">
+                <li is="listview-li">
+                    <a href="#Content1" data-transition="slide">Ipad Pro</a>
+                </li>
+                <li is="listview-li">
+                    <a href="#Content2" data-transition="slide">Ipad Air</a>
+                </li>
+                <li is="listview-li">
+                    <a href="#Content3" data-transition="slide">Ipad Mini</a>
+                </li>
+            </ul>
+        </div>
+    </div>    
+    
+    <!-- 鋼鐵人 Page: Content  -->
+    <div id="Content1" data-role="page">
+        <div data-role="header" data-position="fixed" data-theme="b">
+            <h3>Product</h3>
+            <a class="ui-btn ui-btn-left  ui-btn-icon-left ui-icon-back ui-btn-icon-notext ui-corner-all" data-transition="slide" href="index.html" rel="external">Back</a>
+        </div>
+        <div class="ui-content">
+            <div id="hero" style="font-size:20px; font-weight:bold; width:100%; text-align:center;">Ipad Pro</div>
+            <div><img src="images/ipadpro.PNG" style="width:100%;"></div>
+        </div>
+    </div>
+    
+    <!-- 美國隊長 Page: Content  -->
+    <div id="Content2" data-role="page">
+        <div data-role="header" data-position="fixed" data-theme="b">
+            <h3>Product</h3>
+            <a class="ui-btn ui-btn-left  ui-btn-icon-left ui-icon-back ui-btn-icon-notext ui-corner-all" data-transition="slide" href="index.html" rel="external">Back</a>
+        </div>
+        <div class="ui-content">
+            <div id="hero" style="font-size:20px; font-weight:bold; width:100%; text-align:center;">Ipad Air</div>
+            <div><img src="images/ipadair.PNG" style="width:100%;"></div>
+        </div>
+    </div>
+    
+    <!-- 蜘蛛人 Page: Content  -->
+    <div id="Content3" data-role="page">
+        <div data-role="header" data-position="fixed" data-theme="b">
+            <h3>Product</h3>
+            <a class="ui-btn ui-btn-left  ui-btn-icon-left ui-icon-back ui-btn-icon-notext ui-corner-all" data-transition="slide" href="index.html" rel="external">Back</a>
+        </div>
+        <div class="ui-content">
+            <div id="hero" style="font-size:20px; font-weight:bold; width:100%; text-align:center;">Ipad Mini</div>
+            <div><img src="images/ipadmini.PNG" style="width:100%;"></div>
+        </div>
+    </div>   
+</body>
+</html>
